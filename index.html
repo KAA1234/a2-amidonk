@@ -24,19 +24,17 @@
             <article>
                 <h3>Web Servers</h3>
                 <p>
-                    When a user wants to visit a webpage they input the <strong>Fully Qualified Domain Name
+                    When a user wants to visit a webpage, they input the <strong>Fully Qualified Domain Name
                         (FQDN)</strong> into their browser which resolves the IP address using a <strong>Domain Name
                         System (DNS)</strong> server.
-                    The user then connects to the server using the IP address which host the designated homepage. The
-                    user's browser loads the designated homepage at the root URL
-                    which is typically named <strong>index</strong> with some suffix such as .html, .js, etc. Static
-                    content homepages such as this one typically end
-                    in .html (hypertext mark up language) whereas dynamically generated homepages end in .js
-                    (javascript) or other suffixes.
+                    The user then connects to the server using the IP address which hosts the designated homepage. Servers are commonly configured
+                    so that requests for the path / are routed to the file <strong>index.html</strong>. The designated homepage is where you are routed 
+                    by default when the path / is entered, this is typically routed to the index.html file on the server but could also be a index.js or index.php file depending on the type of server. 
+                    In other cases such as Microsoft's .Net framework a user is routed to default.html as the default homepage. 
                 </p>
 
                 <p>
-                    A users Web Dev/Inspector Networks tab output screen displays the <strong>request</strong> and
+                    A user's Web Dev/Inspector Networks tab output screen displays the <strong>request</strong> and
                     <strong>response</strong> headers which contain valuable information such as
                     status code, type, URL, last time modified, and method. The response body contains the actual data
                     such as the index.html document. If the file is viewed from the web server the URL will
@@ -52,8 +50,8 @@
 
                 <p>
                     A URL can consist of a <strong>scheme</strong>, <strong>subdomain</strong>, <strong>host
-                        domain</strong> and <strong>resources</strong>. The scheme is the protocol such as http and
-                    https. The subdomain is
+                        domain</strong> and <strong>resources</strong>. The scheme is the protocol such as HTTP and
+                    HTTPS. The subdomain is
                     an optional prefix to the domain name such as www. The host domain is the main address of the
                     website which includes a domain name and a <strong>Top Level Domain (TLD)</strong>. Resources
                     provide the
@@ -69,7 +67,7 @@
                 <h3>Frontend Design</h3>
                 <p><strong>Frontend design</strong> is focused on creating the most useful experience for
                     <strong>users</strong>. It consists of <strong>graphical user-interfaces (GUI)</strong>
-                    , the interactive experience and the overal look and feel and design of the page.
+                    , the interactive experience and the overall look and feel and design of the page.
                 </p>
                 <p>
                     The Five "E"s of usability define a usable website and are:
@@ -80,7 +78,7 @@
                     <dt>Efficient</dt>
                     <dd>Users are able to perform tasks with the least number of steps and the are results timely.</dd>
                     <dt>Enjoyable/ Engaging</dt>
-                    <dd>Users feel engaged and satisified; they are likely to come back.</dd>
+                    <dd>Users feel engaged and satisfied; they are likely to come back.</dd>
                     <dt>Easy to Learn/ Navigate</dt>
                     <dd>Users are able to intuitively use the site and locate the resources they need. </dd>
                     <dt>Error-free/ Error-tolerant</dt>
